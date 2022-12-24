@@ -1,0 +1,4 @@
+# list tables that are currently in use
+show open tables where in_use>0;
+
+show processlist;
