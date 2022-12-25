@@ -1,0 +1,3 @@
+# Clear git local cache
+git rm -r --cached .
+git reset HEAD^ --hard
