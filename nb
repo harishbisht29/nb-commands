@@ -21,4 +21,7 @@ nb git fetch origin
 
 nb example:git status
 
+# search for items tagged with "#tag1" AND "#tag2", short options
+nb q -t tag1 -t tag2
+
 
