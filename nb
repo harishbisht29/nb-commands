@@ -19,7 +19,6 @@ nb sync
 # run `git fetch` in the current notebook
 nb git fetch origin
 
-# nb git fetch origin
 nb example:git status
 
 
