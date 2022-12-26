@@ -1,2 +1,25 @@
 # add a notebook
 nb notebooks add commands
+
+# add a note to currently active notebook
+nb add --filename nb
+
+# set the current notebook's remote to a private GitHub repository
+nb remote set https://github.com/example/example
+
+# set the remote for the notebook named "example"
+nb example:remote set https://github.com/example/example
+
+# remove the remote from the current notebook
+nb remote remove
+
+# manually sync the current notebook
+nb sync
+
+# run `git fetch` in the current notebook
+nb git fetch origin
+
+# nb git fetch origin
+nb example:git status
+
+
