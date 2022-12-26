@@ -1,3 +1,7 @@
 # Clear git local cache
 git rm -r --cached .
 git reset HEAD^ --hard
+
+# set remote url
+git remote set-url origin https://gitlabUsername@gitlab.com/KZA_Connected/skilltree.git
+
