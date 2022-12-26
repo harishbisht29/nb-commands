@@ -1,0 +1,2 @@
+# logs of a pod
+kubectl logs -f tf-ifttt-solution-cards-bfdd46ddc-88rgv -n telldus
