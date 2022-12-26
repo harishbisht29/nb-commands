@@ -1,6 +1,9 @@
 # logs of a pod
 kubectl logs -f tf-ifttt-solution-cards-bfdd46ddc-88rgv -n telldus
 
+# delete a pod
+kubectl delete pod tf-auth-manager-59cccc6489-8r96f -n telldus
+
 # pooling get pods command with a given name space
 watch kubectl get pods -n telldus
 
