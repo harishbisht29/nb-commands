@@ -6,3 +6,6 @@ watch kubectl get pods -n telldus
 
 # apply kubectl pods after making changes
 kubectl apply -f config.yaml -n telldus
+
+# attach shell session to running pod
+kubectl exec -it tf-ifttt-solution-cards-v2-b56d6b6c7-k62n6 -n telldus bash
