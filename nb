@@ -24,4 +24,5 @@ nb example:git status
 # search for items tagged with "#tag1" AND "#tag2", short options
 nb q -t tag1 -t tag2
 
-
+# search the notebook named "example" for "example query"
+nb q example: "example query"
