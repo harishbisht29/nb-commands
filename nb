@@ -1,0 +1,2 @@
+# add a notebook
+nb notebooks add commands
