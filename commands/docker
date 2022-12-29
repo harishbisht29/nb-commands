@@ -1,0 +1,3 @@
+
+# docker build using build args 
+docker build -t telldusorahi/tf.auth.manager:local_prod_block_send_otp --build-arg git_user=value --build-arg pwd=value .
