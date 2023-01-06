@@ -5,5 +5,7 @@ docker run -it --entrypoint /bin/bash --rm -p 8020:8020 full_image_name:tag_name
 docker build -t telldusorahi/telldus-auth-manager:local_prod_block_send_otp_amd64 --build-arg git_user=harish_singh --build-arg pwd=Gitlab.None.1994  --platform=linux/amd64 .
 
 
+# docker build no-cache
+
 # docker build using build args 
 docker build -t telldusorahi/tf.auth.manager:local_prod_block_send_otp --build-arg git_user=value --build-arg pwd=value .
