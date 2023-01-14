@@ -1,6 +1,9 @@
 # list tables that are currently in use
 show open tables where in_use>0;
 
+# show table defination
+ALTER TABLE telldus_scheduler.tbl_job_ext DROP FOREIGN KEY FK1_id_jobid;
 
+# show 
 # show process list
 show processlist
