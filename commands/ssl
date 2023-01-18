@@ -1,0 +1,2 @@
+# ssl handshake with a serve
+OpenSSL> s_client -connect amrita.telldus.com:45000
