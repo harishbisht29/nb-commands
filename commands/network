@@ -1,0 +1,5 @@
+# curl print request/response.
+curl --verbose url
+
+# curl using specific http version
+curl --http1.0 --verbose url
