@@ -1,0 +1,4 @@
+#debian commands
+apt-get update
+apt-get install telnet
+apt-get install git
