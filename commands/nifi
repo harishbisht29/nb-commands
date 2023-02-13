@@ -1,0 +1,9 @@
+
+
+nifi start
+
+nifi run
+
+nifi stop
+
+nifi set-single-user-credentials admin H1B2z^%x27ciwv
