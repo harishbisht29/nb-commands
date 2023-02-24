@@ -9,3 +9,5 @@ for user in $(cut -f1 -d: /etc/passwd); do crontab -u $user -l; done
 
 # read env from custom env file
 export $(grep -v '^#' my_custom.env | xargs)
+
+nmap -Pn3000-4000 mysqlserver2.telldus.orahi.com
