@@ -11,3 +11,7 @@ for user in $(cut -f1 -d: /etc/passwd); do crontab -u $user -l; done
 export $(grep -v '^#' my_custom.env | xargs)
 
 nmap -Pn3000-4000 mysqlserver2.telldus.orahi.com
+
+
+# wget remote file without ssl cert check
+wget --no-check-certificate "https://myPath/myFile.xlsx"
