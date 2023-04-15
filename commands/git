@@ -5,3 +5,5 @@ git reset HEAD^ --hard
 # set remote url
 git remote set-url origin https://gitlabUsername@gitlab.com/KZA_Connected/skilltree.git
 
+# Remove the file from Git's tracking using the git rm --cached <file> command, replacing <file> with the name of# the file you want to untrack.
+git rm --cached <file>
