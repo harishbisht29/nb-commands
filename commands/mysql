@@ -8,5 +8,8 @@ ALTER TABLE telldus_scheduler.tbl_job_ext DROP FOREIGN KEY FK1_id_jobid;
 # show process list
 show processlist
 
+# To reset the counter of an auto-increment column in MySQL
+ALTER TABLE mytable AUTO_INCREMENT = 1;
+
 # mysql dump a backup
 mysqldump -u [user name] –p [password] [options] [database_name] [tablename] > [dumpfilename.sql]
