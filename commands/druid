@@ -1,0 +1,4 @@
+# delete from druid
+DELETE FROM <dataSourceName>
+WHERE <columnName> <operator> <value>
+
