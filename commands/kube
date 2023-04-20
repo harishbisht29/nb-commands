@@ -1,3 +1,11 @@
+# get replica set
+kubectl get rs -n telldus
+
+# delete replica set
+kubectl delete rs tf-schedular-jobs-6f45bd6c84
+
+
+
 # logs of a pod
 kubectl logs -f tf-ifttt-solution-cards-bfdd46ddc-88rgv -n telldus
 
