@@ -2,7 +2,7 @@
 kubectl get rs -n telldus
 
 # delete replica set
-kubectl delete rs tf-schedular-jobs-6f45bd6c84
+kubectl delete rs tf-schedular-jobs-6f45bd6c84 -n telldus
 
 
 
