@@ -1,0 +1,3 @@
+# gitlens setup remote used to copy remote urls
+"gitlens.remotes": [{ "domain": "git.corporate-url.com", "type": "GitHub" }]
+
