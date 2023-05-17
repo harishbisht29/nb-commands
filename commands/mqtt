@@ -1,0 +1,3 @@
+mosquitto_pub -h mqtt.dev.orahi.com -u ----- -P ------- -t consat-iot/harish_test -m "hi"
+
+mosquitto_sub -h mqtt.dev.orahi.com -u ----- -P ------- -t consat-iot/harish_test
