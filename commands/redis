@@ -1,0 +1,3 @@
+docker run --rm -it redis:alpine redis-cli -h mqtt.orahi.com PSUBSCRIBE 'test'
+
+docker run --rm -it redis:alpine redis-cli -h mqtt.orahi.com PUBLISH 'test' 'hellow'
