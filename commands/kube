@@ -25,5 +25,8 @@ kubectl exec -it tf-ifttt-solution-cards-v2-b56d6b6c7-k62n6 -n telldus bash
 
 kubectl get pods -o wide -n telldus
 
+# delete a secret k=kubectl
+k delete secret secretname -n namespace
+
 # create secrets by going into respective secret
 kubectl create secret generic eberspacher-etm-nats-listener-qc-secret--from-literal=LOG_LEVEL='DEBUG'--from-literal=ENV='qc'--from-literal=MYSQL_PASSWORD_QC=''--from-literal=KAFKA_PASSWORD_QC=''--from-literal=REDIS_CONNECTION_URL='redis://mqtt.orahi.com'--from-literal=SMTP_PASSWORD='Pass560406'--form-literal=GITLAB_ACCESS_TOKEN='' -n consat-eberspacher
