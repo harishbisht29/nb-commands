@@ -32,7 +32,9 @@ k delete secret secretname -n namespace
 kg secret -n consat-eberspacher
 
 # edit a secret 
+
 k edit secret eberspacher-etm-nats-listener-dev-secret -n consat-eberspacher
+kubectl edit secret eberspacher-etm-web-api-qc-secret -n consat-eberspacher
 
 
 # create secrets by going into respective secret
