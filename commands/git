@@ -7,3 +7,9 @@ git remote set-url origin https://gitlabUsername@gitlab.com/KZA_Connected/skillt
 
 # Remove the file from Git's tracking using the git rm --cached <file> command, replacing <file> with the name of# the file you want to untrack.
 git rm --cached <file>
+
+
+# Your .gitignore is working, but it still tracks the files because they were already in the index.
+# When you commit the .idea/ directory will be removed from your git repository and the following commits will ignore the .idea/ directory.
+git rm -r --cached .idea/
+
