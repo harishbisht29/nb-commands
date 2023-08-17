@@ -23,4 +23,8 @@ install-pkg   <package_name>
 ./request_upload.py <gw_id> /var/co/general-stats
 
 
+# check logs of the gw
 
+applog
+tail -f /var/co/log/application_1.log
+cat var/co/log/application_1.log
