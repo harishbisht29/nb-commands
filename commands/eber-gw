@@ -1,0 +1,26 @@
+# connect to gw hotstop then ssh into it using below command
+
+# hotspot password
+iWavesys123
+name - OBDDevice….003-backend
+
+
+ssh root@192.168.43.1 
+ssh root@192.168.43.2
+
+password: iWavesys
+
+# install a package 
+install-pkg   <package_name>
+
+
+# debug port enabled then u can use screen command
+
+
+
+# req gw for file upload to rsync server
+./request_upload.py <gw_id> /var/co
+./request_upload.py <gw_id> /var/co/general-stats
+
+
+
