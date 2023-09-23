@@ -1,4 +1,6 @@
 # subscribe to a nats topic
 nats -s nats://nats.dev.orahi.com sub 'eber.iw-G26.042fa1d75d48b311.>'
 
+nats pub cli.demo "hello world" 
+
 nats --nkey=nkeyseed -s nats://nats.dev.orahi.com sub 'eber.iw-G26.0921a1d75d48b311.>'
