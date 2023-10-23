@@ -1,0 +1,2 @@
+# list all the processes listening on port 4222
+lsof -nP -iTCP -sTCP:LISTEN | grep 4222
