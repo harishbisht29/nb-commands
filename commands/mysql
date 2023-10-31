@@ -26,4 +26,5 @@ FROM
 WHERE
 	user = 'etm.service.alarm.manager'
 
-
+# move a column position
+ALTER TABLE db_etm.tbl_ota_jobs  MODIFY COLUMN gw_group varchar(100) AFTER type;
