@@ -1,5 +1,4 @@
-# find a string in all the file contents recursively.
-find . -type f -exec grep "telldus-db.telldus.orahi.com" {} \; 
+# find a text in all the fileI::
 
 # list file sie in mb
 ls -l --block-size=M
