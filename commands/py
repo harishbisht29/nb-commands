@@ -1,1 +1,5 @@
 python manage.py inspectdb tbl_vehicle
+
+
+#show code logs in pytest
+pytest --log-cli-level=DEBUG
