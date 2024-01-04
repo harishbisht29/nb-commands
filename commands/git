@@ -1,3 +1,6 @@
+# merge with no fast-forward
+git merge --no-commit --no-ff development
+
 # Clear git local cache
 git rm -r --cached .
 git reset HEAD^ --hard
