@@ -1,5 +1,9 @@
 # find a text in all the fileI::
 
+# scp command to remove on a port
+scp -i /home/co/sys/gateway.pem -P 8802 test gateway@16.170.218.73:/home/gateway/rsync/nats_tls_cert/
+
+
 # list file sie in mb
 ls -l --block-size=M
 
