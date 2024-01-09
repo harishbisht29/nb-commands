@@ -2,7 +2,8 @@
 
 # scp command to remove on a port
 scp -i /home/co/sys/gateway.pem -P 8802 test gateway@16.170.218.73:/home/gateway/rsync/nats_tls_cert/
-
+# -p ⇒"Preserves modification times, access times, and modes from the original file." -r ⇒ "Recursively copy entire directories." -q ⇒ "Disables the progress meter.
+scp -prq server1:dir1/. server2:dir2/
 
 # list file sie in mb
 ls -l --block-size=M
