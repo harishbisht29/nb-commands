@@ -1,3 +1,7 @@
+# create branch from commit hash
+
+git branch branch_name <commit-hash>
+
 # merge with no fast-forward
 git merge --no-commit --no-ff development
 
