@@ -1,3 +1,6 @@
+# connect to nats server using tls
+nats -s tls://tmp-nats.dev.orahi.com:4222 --tlskey=privkey.pem --tlscert=fullchain.pem sub 'eber.>'
+
 # subscribe to a nats topic
 nats -s nats://nats.dev.orahi.com sub 'eber.iw-G26.042fa1d75d48b311.>'
 
