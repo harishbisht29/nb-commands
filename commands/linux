@@ -1,3 +1,6 @@
+# list all the processes running on the port
+netstat -ntlp
+
 
 # enable autocomplete command in zsh
 echo 'autoload -Uz compinit && compinit' >> ~/.zshrc
