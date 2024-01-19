@@ -1,0 +1,9 @@
+# set request timeout for cassandra
+cqlsh --request-timeout=3600
+
+# cqlsh command
+cqlsh 10.121.14.9 9042 -u cassandra -p cassandra
+
+# simple select command
+
+select count(*) from "SensorHistory" where tuuid > 47d14000-6d49-11ee-8080-808080808080 and tuuid < 85d24000-b594-11ee-8080-808080808080 ALLOW FILTERING
