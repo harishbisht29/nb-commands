@@ -1,3 +1,7 @@
+# reset head to previous commit
+
+git reset --hard <commit-before-merge>
+
 # create branch from commit hash
 
 git branch branch_name <commit-hash>
