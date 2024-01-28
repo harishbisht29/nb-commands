@@ -1,6 +1,8 @@
 # reset head to previous commit
 
 git reset --hard <commit-before-merge>
+git push -f origin revert_test
+
 
 # create branch from commit hash
 
