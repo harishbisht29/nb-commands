@@ -1,3 +1,6 @@
+# force push
+git push --force
+
 # reset head to previous commit
 
 git reset --hard <commit-before-merge>
