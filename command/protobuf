@@ -1,0 +1,1 @@
+protoc --python_out=./messages ./schemas/check_gateways_online.proto
