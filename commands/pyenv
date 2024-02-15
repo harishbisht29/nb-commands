@@ -1,3 +1,5 @@
 # install virtualenv 
 pyenv virtualenv 3.10.0 telldus.gw.monitoring
 
+# uninstall
+pyenv uninstall 3.8.2/envs/greenhouse
