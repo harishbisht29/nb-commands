@@ -1,3 +1,6 @@
+# find common commit safe for merge
+git merge-base master qa
+
 # force push
 git push --force
 
