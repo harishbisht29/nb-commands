@@ -1,3 +1,7 @@
+#abort the merge
+git merge --abort
+
+
 # list of changes that will be merged into current branch.
 git log ..dev_nebula
 
