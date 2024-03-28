@@ -1,3 +1,7 @@
+# list of changes that will be merged into current branch.
+git log ..dev_nebula
+
+
 # find common commit safe for merge
 git merge-base master qa
 
