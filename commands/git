@@ -1,3 +1,8 @@
+# just preview the merge changes without actually merging
+git merge --no-commit branch_to_merge_from
+git diff
+
+
 #abort the merge
 git merge --abort
 
