@@ -1,3 +1,6 @@
+# find substring in all the file recursively!
+grep -r -o -i "your_string" *
+
 # list all the processes running on the port
 netstat -ntlp
 
