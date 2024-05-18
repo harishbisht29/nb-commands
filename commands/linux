@@ -1,3 +1,6 @@
+# run a command in a loop
+while true; do your_command_here; sleep 5; done
+
 # find substring in all the file recursively!
 grep -r -o -i "your_string" *
 
