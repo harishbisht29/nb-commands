@@ -1,3 +1,6 @@
+# publish local branch to remote and start tracking it.
+git push -u origin develop
+
 # just preview the merge changes without actually merging
 git merge --no-commit branch_to_merge_from
 git diff
