@@ -1,5 +1,9 @@
 python manage.py inspectdb tbl_vehicle
+# upgrade a package
+pip install spacy --upgrade 
 
+# show package dependency tree
+pipdeptree
 
 #show code logs in pytest
 pytest --log-cli-level=DEBUG
