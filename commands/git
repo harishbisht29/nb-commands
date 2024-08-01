@@ -1,3 +1,13 @@
+# peek changes if we do merge
+git diff ...otherbranch
+
+# list of changes that will be merged into current branch.
+git log ..otherbranch
+
+
+# graphical representation of the branches since they were merged last time.
+gitk ...otherbranch
+
 # git remote add
 git remote add origin git@github.com:User/UserRepo.git
 
