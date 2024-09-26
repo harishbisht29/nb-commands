@@ -1,3 +1,6 @@
+# remove some set of files from tracking
+find . -name "*.pyc" -exec git rm -f "{}" \;
+
 # peek changes if we do merge
 git diff ...otherbranch
 
