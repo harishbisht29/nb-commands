@@ -1,3 +1,6 @@
+# Remove all unused containers, networks, images (both dangling and unused), and optionally, volumes.
+docker system prune 
+
 # peek inside an image
 docker run -it --env-file ./env.list --entrypoint /bin/bash --rm -p 8020:8020 full_image_name:tag_name
 
