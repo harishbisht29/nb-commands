@@ -1,3 +1,6 @@
+# stage only tracked files
+git add -u
+
 # remove some set of files from tracking
 find . -name "*.pyc" -exec git rm -f "{}" \;
 
