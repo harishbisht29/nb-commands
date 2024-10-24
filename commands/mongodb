@@ -1,0 +1,8 @@
+# show dbs
+show dbs
+
+#show collection
+show collection
+
+# read all
+db.student.find({})
