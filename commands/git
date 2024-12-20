@@ -1,3 +1,6 @@
+# mock merge
+git merge --no-commit --no-ff $BRANCH
+
 # stage only tracked files
 git add -u
 
