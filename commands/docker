@@ -1,3 +1,6 @@
+# run postgres 
+docker run --rm --name postgres_local -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=harish -e POSTGRES_DB=db_etm postgres:16
+
 # Remove all unused containers, networks, images (both dangling and unused), and optionally, volumes.
 docker system prune 
 
